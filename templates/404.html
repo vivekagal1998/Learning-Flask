@@ -1,0 +1,17 @@
+{% extends "6_base.html" %}
+
+{%block title %}Flask - Page not Found {% endblock %}
+
+{% block page_content %}
+<h1 class="jumbotron">
+    <center><u> PAGE NOT FOUND </u></center>
+ </h1>
+
+<div style="margin:100px;margin-left:100px;">
+</div>
+
+<a href="{{url_for('index')}}" style="text-align:center">
+  BACK TO HOME
+</a>
+
+{% endblock %}
